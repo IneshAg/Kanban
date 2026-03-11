@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+}
+
+input,
+textarea,
+button,
+select {
+  font-family: inherit;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 4px;
+}
+
+.board {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  padding: 20px;
+  align-items: flex-start;
+}
+
+@media (max-width: 700px) {
+  .board {
+    flex-direction: column;
+  }
+}
+
+.header-search {
+  width: 180px;
+}
+
+@media (max-width: 700px) {
+  .header-search {
+    width: 100%;
+    order: 4;
+  }
+}
+
+.column {
+  min-width: 270px;
+  flex: 1;
+}
+
+@media (max-width: 700px) {
+  .column {
+    min-width: unset;
+    width: 100%;
+  }
+}
