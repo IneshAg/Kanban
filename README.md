@@ -1,5 +1,5 @@
-![ ](Pic1.png)
+![ ](Photos/Pic1.png)
 
-![ ](Pic2.png)
+![ ](Photos/Pic2.png)
 
-![ ](Pic3.png)
+![ ](Photos/Pic3.png)
